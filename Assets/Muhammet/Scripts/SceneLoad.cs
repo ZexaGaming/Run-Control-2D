@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEditor;
+using TMPro; 
 
 public class SceneLoad : MonoBehaviour
 {
@@ -10,6 +11,15 @@ public class SceneLoad : MonoBehaviour
     {
         SceneManager.LoadScene(2);
     }
+    public void SettingsScene()
+    {
+        SceneManager.LoadScene(3);
+    }
+    public void MainMenuScene()
+    {
+        SceneManager.LoadScene(1);
+    }
+
 
     public void ExitGame()
     {
