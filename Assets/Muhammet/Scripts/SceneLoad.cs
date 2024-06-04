@@ -6,9 +6,9 @@ using UnityEditor;
 
 public class SceneLoad : MonoBehaviour
 {
-    public void AhmetScene()
+    public void MainScene()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
     public void ExitGame()

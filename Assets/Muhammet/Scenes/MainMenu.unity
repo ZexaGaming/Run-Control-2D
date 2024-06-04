@@ -1051,7 +1051,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 354530041}
         m_TargetAssemblyTypeName: SceneLoad, Assembly-CSharp
-        m_MethodName: AhmetScene
+        m_MethodName: MainScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -11,10 +11,10 @@ public class BackgroundSpawn : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player" && spawmlandi == false) 
         {
-            Vector3 spawn_location = new Vector3(transform.position.x + 7.48f, 0, 0);
+            Vector3 spawn_location = new Vector3(transform.position.x + 6.43f, 0, 0);
             Instantiate(Background, spawn_location, Quaternion.identity);
              spawmlandi=true;
-            Destroy(this.gameObject,3f);
+           
         }
     }
 }
