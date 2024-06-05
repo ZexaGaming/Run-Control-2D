@@ -18,6 +18,6 @@ EditorBuildSettings:
     path: Assets/Muhammet/Scenes/Settings.unity
     guid: 96cb2ce7d43d7cd4694fe7d466214c66
   - enabled: 1
-    path: Assets/Muhammet/Scenes/GameOver.unity
-    guid: d55a0b44779c2d345802ba6aa0aa3f4d
+    path: Assets/Muhammet/Scenes/LevelMenu.unity
+    guid: 00e5c066304e3b14c98cac44b25ebf6c
   m_configObjects: {}
