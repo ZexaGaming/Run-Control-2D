@@ -15,6 +15,7 @@ public class CharacterController : MonoBehaviour
     Rigidbody2D rb;
 
     int yon;
+    public bool HasKey { get; set; }
     void Start()
     {
         anim = gameObject.GetComponent<Animator>();
