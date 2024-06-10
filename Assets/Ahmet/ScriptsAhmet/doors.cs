@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class door : MonoBehaviour
+public class doors : MonoBehaviour
 {
   //  public string nextSceneName; // Geçilecek sahnenin adý
     private Collider2D doorCollider;
