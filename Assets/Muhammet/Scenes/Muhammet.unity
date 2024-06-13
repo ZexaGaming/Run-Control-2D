@@ -3147,10 +3147,10 @@ RectTransform:
   - {fileID: 407775075}
   m_Father: {fileID: 1727042339}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.078, y: 0.59719694}
-  m_AnchorMax: {x: 0.91800004, y: 0.78478765}
-  m_AnchoredPosition: {x: -1029, y: 256}
-  m_SizeDelta: {x: -1947.2227, y: -112.3277}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 266.40002, y: -140.5}
+  m_SizeDelta: {x: 283.80005, y: 128.6723}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!111 &138402676
 Animation:
@@ -37390,7 +37390,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 1
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
