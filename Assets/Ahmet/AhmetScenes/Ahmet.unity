@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 211558328}
   - component: {fileID: 211558330}
   - component: {fileID: 211558329}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_52 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -263,7 +263,7 @@ GameObject:
   - component: {fileID: 271246003}
   - component: {fileID: 271246005}
   - component: {fileID: 271246004}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_53 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -559,7 +559,7 @@ GameObject:
   - component: {fileID: 321309050}
   - component: {fileID: 321309052}
   - component: {fileID: 321309051}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_52 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -689,7 +689,7 @@ GameObject:
   - component: {fileID: 328799764}
   - component: {fileID: 328799763}
   - component: {fileID: 328799765}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_51
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1130,7 +1130,7 @@ GameObject:
   - component: {fileID: 451061860}
   - component: {fileID: 451061862}
   - component: {fileID: 451061861}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_52 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1260,7 +1260,7 @@ GameObject:
   - component: {fileID: 484931646}
   - component: {fileID: 484931648}
   - component: {fileID: 484931647}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_51 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1556,7 +1556,7 @@ GameObject:
   - component: {fileID: 627986392}
   - component: {fileID: 627986394}
   - component: {fileID: 627986393}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_51 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1686,7 +1686,7 @@ GameObject:
   - component: {fileID: 719148700}
   - component: {fileID: 719148702}
   - component: {fileID: 719148701}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_51 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1891,7 +1891,7 @@ GameObject:
   - component: {fileID: 734644095}
   - component: {fileID: 734644097}
   - component: {fileID: 734644096}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_52 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2021,7 +2021,7 @@ GameObject:
   - component: {fileID: 753312736}
   - component: {fileID: 753312738}
   - component: {fileID: 753312737}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_51 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2285,7 +2285,7 @@ GameObject:
   - component: {fileID: 775191218}
   - component: {fileID: 775191220}
   - component: {fileID: 775191219}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_53 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2641,7 +2641,7 @@ GameObject:
   - component: {fileID: 895649895}
   - component: {fileID: 895649897}
   - component: {fileID: 895649896}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_53 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2771,7 +2771,7 @@ GameObject:
   - component: {fileID: 960895213}
   - component: {fileID: 960895215}
   - component: {fileID: 960895214}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_53 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2901,7 +2901,7 @@ GameObject:
   - component: {fileID: 968192515}
   - component: {fileID: 968192517}
   - component: {fileID: 968192516}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_53 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3031,7 +3031,7 @@ GameObject:
   - component: {fileID: 986488557}
   - component: {fileID: 986488559}
   - component: {fileID: 986488558}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_53 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3161,7 +3161,7 @@ GameObject:
   - component: {fileID: 1031797026}
   - component: {fileID: 1031797028}
   - component: {fileID: 1031797027}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_52 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3291,7 +3291,7 @@ GameObject:
   - component: {fileID: 1168993260}
   - component: {fileID: 1168993262}
   - component: {fileID: 1168993261}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_53 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3421,7 +3421,7 @@ GameObject:
   - component: {fileID: 1172290477}
   - component: {fileID: 1172290479}
   - component: {fileID: 1172290478}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_52 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3551,7 +3551,7 @@ GameObject:
   - component: {fileID: 1291178391}
   - component: {fileID: 1291178393}
   - component: {fileID: 1291178392}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_51 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3870,7 +3870,7 @@ GameObject:
   - component: {fileID: 1399550409}
   - component: {fileID: 1399550408}
   - component: {fileID: 1399550410}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_52
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4000,7 +4000,7 @@ GameObject:
   - component: {fileID: 1407549739}
   - component: {fileID: 1407549741}
   - component: {fileID: 1407549740}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_52 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4130,7 +4130,7 @@ GameObject:
   - component: {fileID: 1475591943}
   - component: {fileID: 1475591942}
   - component: {fileID: 1475591944}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_53
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4260,7 +4260,7 @@ GameObject:
   - component: {fileID: 1512116914}
   - component: {fileID: 1512116916}
   - component: {fileID: 1512116915}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_52 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4390,7 +4390,7 @@ GameObject:
   - component: {fileID: 1644881628}
   - component: {fileID: 1644881630}
   - component: {fileID: 1644881629}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_53 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4520,7 +4520,7 @@ GameObject:
   - component: {fileID: 1651599988}
   - component: {fileID: 1651599990}
   - component: {fileID: 1651599989}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_52 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4648,7 +4648,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1705732527}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4713,7 +4713,7 @@ GameObject:
   - component: {fileID: 1708945431}
   - component: {fileID: 1708945433}
   - component: {fileID: 1708945432}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_51 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4843,7 +4843,7 @@ GameObject:
   - component: {fileID: 1718381807}
   - component: {fileID: 1718381808}
   - component: {fileID: 1718381809}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_52 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5325,7 +5325,7 @@ GameObject:
   - component: {fileID: 1887293258}
   - component: {fileID: 1887293260}
   - component: {fileID: 1887293259}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_52 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5530,7 +5530,7 @@ GameObject:
   - component: {fileID: 1897884576}
   - component: {fileID: 1897884577}
   - component: {fileID: 1897884578}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_51 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5660,7 +5660,7 @@ GameObject:
   - component: {fileID: 1940858227}
   - component: {fileID: 1940858228}
   - component: {fileID: 1940858229}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_53 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5790,7 +5790,7 @@ GameObject:
   - component: {fileID: 2001288469}
   - component: {fileID: 2001288471}
   - component: {fileID: 2001288470}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_52 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6012,7 +6012,7 @@ GameObject:
   - component: {fileID: 2075285525}
   - component: {fileID: 2075285527}
   - component: {fileID: 2075285526}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Terrain (16x16)_53 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
