@@ -4,9 +4,14 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
   - uzunPortal
   - kupaPortal
   - Ground
+=======
+  - kupaPortal
+  - uzunPortal
+>>>>>>> 564de344f938cd45a18c3e017fd182350d2a1cc8
   layers:
   - Default
   - TransparentFX
