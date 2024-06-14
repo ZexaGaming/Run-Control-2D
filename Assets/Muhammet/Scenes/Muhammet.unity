@@ -1954,7 +1954,7 @@ GameObject:
   - component: {fileID: 77534328}
   - component: {fileID: 77534327}
   - component: {fileID: 77534330}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3811,7 +3811,7 @@ GameObject:
   - component: {fileID: 126432501}
   - component: {fileID: 126432500}
   - component: {fileID: 126432499}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Crate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19654,7 +19654,7 @@ Transform:
   m_GameObject: {fileID: 845352701}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.193, y: 0.512, z: 0}
+  m_LocalPosition: {x: 1.193, y: 0.574, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 1
   m_Children:
