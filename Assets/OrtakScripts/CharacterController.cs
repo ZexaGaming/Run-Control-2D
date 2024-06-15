@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
+using UnityEngine.SceneManagement;
 
 public class CharacterController : MonoBehaviour
 {
@@ -61,9 +62,19 @@ public class CharacterController : MonoBehaviour
         {
             Vector2 jumpVector = new Vector2(0, 1) * JumpGucu;
             rb.AddForce(jumpVector); anim.SetTrigger("Jumping");
-        }
-      
-      
+        }   
     }
+    public void Die()
+    {
+        // Ölüm animasyonu veya efektleri burada oynatýlabilir
+        // Örneðin:
+      //  anim.SetTrigger("Die");
 
+        // Oyuncuyu devre dýþý býrak
+        gameObject.SetActive(false);
+
+        // Oyunu veya sahneyi yeniden baþlat
+        // Burada sahneyi hemen yeniden baþlatmak yerine belirli bir gecikme ekleyebilirsiniz.
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }
