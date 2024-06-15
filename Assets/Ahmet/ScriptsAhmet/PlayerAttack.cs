@@ -10,6 +10,7 @@ public class PlayerAttack : MonoBehaviour
     public Transform attackPoint;
     public LayerMask enemyLayers;
     public Button attackButton; // Attack Button referansý
+    private Animator animator;  // Animator referansý
 
     void Start()
     {
@@ -21,11 +22,24 @@ public class PlayerAttack : MonoBehaviour
         else
         {
             Debug.LogWarning("Attack Button is not assigned.");
+        } 
+        // Animator referansýný al
+        animator = GetComponent<Animator>();
+        if (animator == null)
+        {
+            Debug.LogWarning("Animator component not found on player.");
         }
     }
 
     void Attack()
-    {
+    { // Saldýrý animasyonunu tetikleme
+        if (animator != null)
+        {
+            animator.SetTrigger("Attack");
+        }
+
+        Debug.Log("Attack function called");
+
         // Detect enemies in range of attack
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
