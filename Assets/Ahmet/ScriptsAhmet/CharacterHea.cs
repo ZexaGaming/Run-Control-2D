@@ -12,13 +12,18 @@ public class PlayerHealth : MonoBehaviour
     public Sprite fullHeart;
     public Sprite emptyHeart;
 
+    public float pushBackForce = 5f;
+
+    private Rigidbody2D rb;
+
     void Start()
     {
         currentHealth = maxHealth;
         UpdateHearts();
+        rb = GetComponent<Rigidbody2D>();
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(int damage, Vector2 pushBackDirection)
     {
         currentHealth -= damage;
         if (currentHealth < 0)
@@ -26,6 +31,9 @@ public class PlayerHealth : MonoBehaviour
             currentHealth = 0;
         }
         UpdateHearts();
+
+        // Püskürtme iþlemi
+        rb.AddForce(pushBackDirection * pushBackForce, ForceMode2D.Impulse);
 
         if (currentHealth <= 0)
         {

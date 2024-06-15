@@ -11,7 +11,8 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             var playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
-            playerHealth.TakeDamage(damageToPlayer);
+            Vector2 pushBackDirection = (collision.transform.position - transform.position).normalized;
+            playerHealth.TakeDamage(damageToPlayer, pushBackDirection);
         }
     }
 }
