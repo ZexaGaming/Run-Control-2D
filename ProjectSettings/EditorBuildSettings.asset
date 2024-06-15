@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Muhammet/Scenes/MainMenu.unity
     guid: 0425d677b24fc0a4484bc1a11479530d
   - enabled: 1
-    path: Assets/Muhammet/Scenes/Muhammet.unity
+    path: Assets/Muhammet/Muhammet.unity
     guid: dc3f2592041ee3646b971a11824ff0ed
   - enabled: 1
     path: Assets/Muhammet/Scenes/Settings.unity
