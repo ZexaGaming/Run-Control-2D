@@ -3047,8 +3047,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbe9cc82820665e46afc224d9c4a8d52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HareketSpeed: 4
-  JumpGucu: 250
+  HareketSpeed: 3.3
+  JumpGucu: 300
 --- !u!95 &292114666
 Animator:
   serializedVersion: 5
@@ -3177,8 +3177,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   attackButton: {fileID: 62276445}
---- !u!61 &292114672
-BoxCollider2D:
+--- !u!58 &292114672
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3209,19 +3209,9 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.03117086, y: -0.6695606}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.12, y: 2.56}
-    newSize: {x: 5.12, y: 2.56}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Offset: {x: -0.025126593, y: -0.6169568}
   serializedVersion: 2
-  m_Size: {x: 0.68915224, y: 1.1132034}
-  m_EdgeRadius: 0
+  m_Radius: 0.58504385
 --- !u!4 &300643894 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2166150587115951665, guid: 0804d1ab2e47915408d354dd04a36ff0, type: 3}
