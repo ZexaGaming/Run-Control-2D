@@ -47,7 +47,7 @@ public class CharacterController : MonoBehaviour
     }
     bool YerdeMý()
     {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.4f, 1 << LayerMask.NameToLayer("Zemin"));
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 1f, 1 << LayerMask.NameToLayer("Zemin"));
         if (hit.collider != null)
         {
             return true;

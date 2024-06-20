@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Muhammet/Scenes/Loanding.unity
     guid: 49562b7fda746024c958cfd5f8a73b26
   - enabled: 1
+    path: Assets/Muhammet/Scenes/MuhammetPlatform.unity
+    guid: f435a6d1cfd29e74c8996b96577ce299
+  - enabled: 1
     path: Assets/Muhammet/Scenes/MainMenu.unity
     guid: 0425d677b24fc0a4484bc1a11479530d
   - enabled: 1
