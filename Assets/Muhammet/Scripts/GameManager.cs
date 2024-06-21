@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
-    private int totalKeys = 20; // Toplanmasý gereken toplam anahtar sayýsý
+    public int totalKeys = 20; // Toplanmasý gereken toplam anahtar sayýsý
     private int collectedKeys = 0;
 
     public TextMeshProUGUI keyCountText; // Text UI elemanýna referans
