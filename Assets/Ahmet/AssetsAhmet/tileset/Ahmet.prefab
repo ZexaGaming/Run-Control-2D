@@ -381,7 +381,11 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
+<<<<<<< HEAD
 --- !u!114 &948615104258623998
+=======
+--- !u!114 &2570722473480417035
+>>>>>>> 279e059ad535a66d8f37340bb214092f0efa4859
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
