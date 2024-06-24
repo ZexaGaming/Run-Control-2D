@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Muhammet/Scenes/Level18.unity
+    guid: c5e50fe5abb668a4ea1c29f2374dc80a
+  - enabled: 1
     path: Assets/Muhammet/Scenes/Level17.unity
     guid: a0ea1087b3190fb40a3499b61105c64c
   - enabled: 1
