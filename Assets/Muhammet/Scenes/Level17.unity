@@ -3202,7 +3202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbe9cc82820665e46afc224d9c4a8d52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HareketSpeed: 3.5
+  HareketSpeed: 5
   JumpGucu: 625
 --- !u!95 &292114666
 Animator:
