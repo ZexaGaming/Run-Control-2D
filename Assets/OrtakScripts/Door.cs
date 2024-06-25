@@ -10,7 +10,7 @@ public class Door : MonoBehaviour
         if (other.CompareTag("Player") && GameManager.instance.HasCollectedAllKeys())
         {
             // Bir sonraki bölüme geçiþ
-            UnityEngine.SceneManagement.SceneManager.LoadScene(5);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(0);
         }
 
     }
