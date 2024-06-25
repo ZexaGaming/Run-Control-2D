@@ -6,6 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Muhammet/Scenes/Level19.unity
+    guid: c3d20417ecc02c942a8554a2f499b39d
+  - enabled: 1
+    path: Assets/Muhammet/Scenes/Level18.unity
+    guid: c5e50fe5abb668a4ea1c29f2374dc80a
+  - enabled: 1
+    path: Assets/Muhammet/Scenes/Level17.unity
+    guid: a0ea1087b3190fb40a3499b61105c64c
+  - enabled: 1
+    path: Assets/Muhammet/Scenes/Level16.unity
+    guid: f435a6d1cfd29e74c8996b96577ce299
+  - enabled: 1
     path: Assets/Ahmet/AhmetScenes/Ahmet Lvl 1.unity
     guid: 4db83b7b9d36d4143aafe473a7287547
+  - enabled: 1
+    path: Assets/Muhammet/Scenes/LevelMenu.unity
+    guid: 00e5c066304e3b14c98cac44b25ebf6c
   m_configObjects: {}
