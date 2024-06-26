@@ -7,6 +7,7 @@ TagManager:
   - uzunPortal
   - kupaPortal
   - Keys
+  - Die
   layers:
   - Default
   - TransparentFX
