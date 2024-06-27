@@ -19,10 +19,9 @@ public class PlayerDeath : MonoBehaviour
         if (collision.CompareTag("Die"))
         {
             Die();
+
         }
     }
-
-    
 
     void Die()
     {
@@ -33,7 +32,7 @@ public class PlayerDeath : MonoBehaviour
         {
             vCam.enabled = false;
         }
-      //  GetComponent<CharacterController>().enabled = false;
+       // GetComponent<CharacterController>().enabled = false;
     }
 
   
