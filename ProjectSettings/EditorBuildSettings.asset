@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Muhammet/Scenes/Deneme.unity
     guid: dc3f2592041ee3646b971a11824ff0ed
   - enabled: 1
-    path: Assets/Scenes/Settings.unity
+    path: Assets/Muhammet/Scenes/Settings.unity
     guid: 96cb2ce7d43d7cd4694fe7d466214c66
   - enabled: 1
     path: Assets/Scenes/LevelMenu.unity
