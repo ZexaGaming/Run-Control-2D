@@ -8,6 +8,7 @@ TagManager:
   - kupaPortal
   - Keys
   - Die
+  - Complated
   layers:
   - Default
   - TransparentFX

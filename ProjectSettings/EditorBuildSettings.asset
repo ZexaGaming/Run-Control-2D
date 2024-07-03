@@ -6,27 +6,69 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/LevelMenu.unity
+    guid: 00e5c066304e3b14c98cac44b25ebf6c
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: 70e736791e79a564197c3f37e4e5c70e
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: d2b3b8b4db28c844898d7f456e1e56b9
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: d6e3c001f14aded4d97b2ea7aae2ae15
+  - enabled: 1
+    path: Assets/Scenes/Level4.unity
+    guid: 2277f815e35646049ae34f36601909fe
+  - enabled: 1
+    path: Assets/Scenes/Level5.unity
+    guid: 380a9eff562a61745a2ad30f1922d54e
+  - enabled: 1
+    path: Assets/Scenes/Level6.unity
+    guid: 2ed9351bfa114cf4aa77e91bb7e66d8a
+  - enabled: 1
+    path: Assets/Scenes/Level7.unity
+    guid: b95a0a2e30223ee4091b8583a45e8ab8
+  - enabled: 1
+    path: Assets/Scenes/Level8.unity
+    guid: 0c672c33b292f8f4fbf8b359bec82366
+  - enabled: 1
+    path: Assets/Scenes/Level9.unity
+    guid: 370f87eff407f1a4d89650a0c3fd600b
+  - enabled: 1
     path: Assets/Scenes/Level10.unity
     guid: 4db83b7b9d36d4143aafe473a7287547
   - enabled: 1
-    path: Assets/Scenes/Loanding.unity
-    guid: 49562b7fda746024c958cfd5f8a73b26
+    path: Assets/Scenes/level11.unity
+    guid: 89ecea5d3b4cf514db8040d3f8e13393
+  - enabled: 1
+    path: Assets/Scenes/level12.unity
+    guid: 2b2477673a2c1b746bececff6d564cc4
+  - enabled: 1
+    path: Assets/Scenes/level13.unity
+    guid: 7d79a7bddc89d5147976da4c60d367df
+  - enabled: 1
+    path: Assets/Scenes/level14.unity
+    guid: 297bbcfd589fe5f47a7faaa225b0a274
+  - enabled: 1
+    path: Assets/Scenes/level15.unity
+    guid: 14c75dbd31569c644b3319efa7791494
+  - enabled: 1
+    path: Assets/Scenes/Level16.unity
+    guid: fe948a17f8f1aa849bd8e36a75ecb737
+  - enabled: 1
+    path: Assets/Scenes/Level17.unity
+    guid: c3d20417ecc02c942a8554a2f499b39d
+  - enabled: 1
+    path: Assets/Scenes/Level18.unity
+    guid: c5e50fe5abb668a4ea1c29f2374dc80a
+  - enabled: 1
+    path: Assets/Scenes/Level19.unity
+    guid: a0ea1087b3190fb40a3499b61105c64c
   - enabled: 1
     path: Assets/Scenes/Level20.unity
     guid: f435a6d1cfd29e74c8996b96577ce299
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 0425d677b24fc0a4484bc1a11479530d
-  - enabled: 0
-    path: Assets/Muhammet/Scenes/Deneme.unity
-    guid: dc3f2592041ee3646b971a11824ff0ed
-  - enabled: 1
-    path: Assets/Muhammet/Scenes/Settings.unity
-    guid: 96cb2ce7d43d7cd4694fe7d466214c66
-  - enabled: 1
-    path: Assets/Scenes/LevelMenu.unity
-    guid: 00e5c066304e3b14c98cac44b25ebf6c
-  - enabled: 1
-    path: Assets/Ahmet/AhmetScenes/Ahmet.unity
-    guid: c6180bc761e4a814d9d6f85acfef6c6f
   m_configObjects: {}
