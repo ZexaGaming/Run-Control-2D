@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 9001886833667518529}
   - component: {fileID: 2739657617659252623}
   - component: {fileID: 1674804278478779776}
-  - component: {fileID: 2937047343886202847}
   m_Layer: 0
   m_Name: Bronze Lock
   m_TagString: Untagged
@@ -131,15 +130,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.75, y: 0.9}
   m_EdgeRadius: 0
---- !u!114 &2937047343886202847
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1528075831717062606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43cb0b96c4a9e1d4f97bdb1f388e1ba3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
