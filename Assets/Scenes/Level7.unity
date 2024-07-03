@@ -443,22 +443,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bronze Lock
       objectReference: {fileID: 0}
-    - target: {fileID: 1528075831717062606, guid: 2c1cad96ca2d44248b921f6f26871dd8, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9001886833667518529, guid: 2c1cad96ca2d44248b921f6f26871dd8, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 9001886833667518529, guid: 2c1cad96ca2d44248b921f6f26871dd8, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 9001886833667518529, guid: 2c1cad96ca2d44248b921f6f26871dd8, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 3
-      objectReference: {fileID: 0}
+    - target: {fileID: 7815041355499384429, guid: 2c1cad96ca2d44248b921f6f26871dd8, type: 3}
+      propertyPath: vCam
+      value: 
+      objectReference: {fileID: 336185716}
+    - target: {fileID: 7815041355499384429, guid: 2c1cad96ca2d44248b921f6f26871dd8, type: 3}
+      propertyPath: LevelComplated
+      value: 
+      objectReference: {fileID: 1055003698}
     - target: {fileID: 9001886833667518529, guid: 2c1cad96ca2d44248b921f6f26871dd8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.8925781
@@ -502,10 +494,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1528075831717062606, guid: 2c1cad96ca2d44248b921f6f26871dd8, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 591034214}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c1cad96ca2d44248b921f6f26871dd8, type: 3}
 --- !u!4 &110612965 stripped
 Transform:
@@ -54752,25 +54741,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &591034213 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1528075831717062606, guid: 2c1cad96ca2d44248b921f6f26871dd8, type: 3}
-  m_PrefabInstance: {fileID: 110612964}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &591034214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 591034213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e1465f78c56dfc4f8dd1d56a4667358, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LevelComplated: {fileID: 1055003698}
-  vCam: {fileID: 336185716}
 --- !u!1 &605309788 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3021214178142390414, guid: 2df71ece77a706d4cbee368d462213c5, type: 3}

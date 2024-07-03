@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9001886833667518529}
   - component: {fileID: 2739657617659252623}
   - component: {fileID: 1674804278478779776}
+  - component: {fileID: 7815041355499384429}
   m_Layer: 0
   m_Name: Bronze Lock
   m_TagString: Untagged
@@ -26,9 +27,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1528075831717062606}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.0009135162, w: 0.9999996}
+  m_LocalRotation: {x: 0, y: 0, z: 0.0009163249, w: 0.9999996}
   m_LocalPosition: {x: -16.34531, y: -35.1768, z: 0.24158782}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -130,3 +131,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.75, y: 0.9}
   m_EdgeRadius: 0
+--- !u!114 &7815041355499384429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528075831717062606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e1465f78c56dfc4f8dd1d56a4667358, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelComplated: {fileID: 0}
+  vCam: {fileID: 0}
