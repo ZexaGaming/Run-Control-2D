@@ -449,6 +449,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7815041355499384429, guid: 2c1cad96ca2d44248b921f6f26871dd8, type: 3}
+      propertyPath: vCam
+      value: 
+      objectReference: {fileID: 336185716}
+    - target: {fileID: 7815041355499384429, guid: 2c1cad96ca2d44248b921f6f26871dd8, type: 3}
+      propertyPath: LevelComplated
+      value: 
+      objectReference: {fileID: 55810334}
     - target: {fileID: 9001886833667518529, guid: 2c1cad96ca2d44248b921f6f26871dd8, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -504,30 +512,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1528075831717062606, guid: 2c1cad96ca2d44248b921f6f26871dd8, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 110612966}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c1cad96ca2d44248b921f6f26871dd8, type: 3}
---- !u!1 &110612965 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1528075831717062606, guid: 2c1cad96ca2d44248b921f6f26871dd8, type: 3}
-  m_PrefabInstance: {fileID: 110612964}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &110612966
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 110612965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e1465f78c56dfc4f8dd1d56a4667358, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LevelComplated: {fileID: 55810334}
-  vCam: {fileID: 336185716}
 --- !u!1 &147301247
 GameObject:
   m_ObjectHideFlags: 0
@@ -46977,6 +46963,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 108, y: 4, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 26
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 114, y: 4, z: 0}
     second:
       serializedVersion: 2
@@ -48322,16 +48318,6 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 18
       m_TileSpriteIndex: 6
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 108, y: 6, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 26
-      m_TileSpriteIndex: 14
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -72172,7 +72158,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2417634801081625124, guid: cca8754fdcaf80b4490c6183d51a3e4a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.84
+      value: -3.39
       objectReference: {fileID: 0}
     - target: {fileID: 2417634801081625124, guid: cca8754fdcaf80b4490c6183d51a3e4a, type: 3}
       propertyPath: m_LocalPosition.z
