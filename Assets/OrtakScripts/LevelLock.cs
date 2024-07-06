@@ -11,7 +11,7 @@ public class LevelLock : MonoBehaviour
     private int unlockedLevels;
     private void Start()
     {
-        unlockedLevels = PlayerPrefs.GetInt("unlockedLevels", 1);
+        unlockedLevels = PlayerPrefs.GetInt("unlockedLevels", 2);
 
         for (int i = 0; i < buttons.Length; i++) 
         {
