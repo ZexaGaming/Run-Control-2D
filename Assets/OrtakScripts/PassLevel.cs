@@ -13,7 +13,7 @@ public class PassLevel : MonoBehaviour
 
         if (currentLevel >= PlayerPrefs.GetInt("unlockedLevels"))
         {
-            PlayerPrefs.SetInt("unlockedLevels", currentLevel + 1);
+            PlayerPrefs.SetInt("unlockedLevels", currentLevel);
         }
     }
 }

@@ -1728,6 +1728,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PassLevel
       objectReference: {fileID: 0}
+    - target: {fileID: 6215453631463118174, guid: bbcac8227be0f964b9e05383d14fc88a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
