@@ -1115,7 +1115,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 695, y: 200}
-  m_SizeDelta: {x: 275, y: 275}
+  m_SizeDelta: {x: 225, y: 225}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &320588554
 MonoBehaviour:
@@ -57673,7 +57673,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 310, y: 200}
-  m_SizeDelta: {x: 275, y: 275}
+  m_SizeDelta: {x: 225, y: 225}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &563434733
 MonoBehaviour:
@@ -58983,8 +58983,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbe9cc82820665e46afc224d9c4a8d52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HareketSpeed: 6
-  JumpGucu: 745
+  HareketSpeed: 5
+  JumpGucu: 725
 --- !u!50 &845352707
 Rigidbody2D:
   serializedVersion: 4
@@ -59921,7 +59921,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: -675, y: 200}
-  m_SizeDelta: {x: 275, y: 275}
+  m_SizeDelta: {x: 225, y: 225}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1111813569
 MonoBehaviour:
@@ -61369,7 +61369,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: -310, y: 200}
-  m_SizeDelta: {x: 275, y: 275}
+  m_SizeDelta: {x: 225, y: 225}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1375712207
 MonoBehaviour:
