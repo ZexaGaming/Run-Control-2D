@@ -256,81 +256,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 45817664}
   m_CullTransparentMesh: 1
---- !u!1 &139240358
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 139240361}
-  - component: {fileID: 139240360}
-  - component: {fileID: 139240359}
-  m_Layer: 5
-  m_Name: 'fadeImage '
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &139240359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 139240358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &139240360
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 139240358}
-  m_CullTransparentMesh: 1
---- !u!224 &139240361
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 139240358}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1637087365}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &167116778
 GameObject:
   m_ObjectHideFlags: 0
@@ -490,7 +415,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1637087367}
+      - m_Target: {fileID: 388012641}
         m_TargetAssemblyTypeName: SceneEffect, Assembly-CSharp
         m_MethodName: LoadSceneWithFade
         m_Mode: 5
@@ -623,7 +548,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1637087367}
+      - m_Target: {fileID: 388012641}
         m_TargetAssemblyTypeName: SceneEffect, Assembly-CSharp
         m_MethodName: LoadSceneWithFade
         m_Mode: 5
@@ -807,6 +732,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 256532845}
   m_CullTransparentMesh: 1
+--- !u!1 &263113031
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 263113034}
+  - component: {fileID: 263113033}
+  - component: {fileID: 263113032}
+  m_Layer: 5
+  m_Name: fadeImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &263113032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263113031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &263113033
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263113031}
+  m_CullTransparentMesh: 1
+--- !u!224 &263113034
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263113031}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 388012646}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &305365185
 GameObject:
   m_ObjectHideFlags: 0
@@ -890,7 +890,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1637087367}
+      - m_Target: {fileID: 388012641}
         m_TargetAssemblyTypeName: SceneEffect, Assembly-CSharp
         m_MethodName: LoadSceneWithFade
         m_Mode: 5
@@ -1291,7 +1291,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1637087367}
+      - m_Target: {fileID: 388012641}
         m_TargetAssemblyTypeName: SceneEffect, Assembly-CSharp
         m_MethodName: LoadSceneWithFade
         m_Mode: 5
@@ -1369,15 +1369,15 @@ RectTransform:
   m_GameObject: {fileID: 347160942}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 316695842}
-  m_Father: {fileID: 1637087365}
+  m_Father: {fileID: 388012646}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 860, y: -367}
+  m_AnchoredPosition: {x: -1300, y: -600}
   m_SizeDelta: {x: 250, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &347160944
@@ -1424,7 +1424,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1637087367}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SceneEffect, Assembly-CSharp
         m_MethodName: LoadSceneWithFade
         m_Mode: 5
@@ -1641,7 +1641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30cab66cd02f9314da6c629a7c7837af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeImage: {fileID: 0}
+  fadeImage: {fileID: 263113032}
   fadeDuration: 1
 --- !u!114 &388012642
 MonoBehaviour:
@@ -1752,6 +1752,8 @@ RectTransform:
   - {fileID: 2130537422}
   - {fileID: 473889336}
   - {fileID: 804672811}
+  - {fileID: 347160943}
+  - {fileID: 263113034}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1842,7 +1844,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1637087367}
+      - m_Target: {fileID: 388012641}
         m_TargetAssemblyTypeName: SceneEffect, Assembly-CSharp
         m_MethodName: LoadSceneWithFade
         m_Mode: 5
@@ -2061,8 +2063,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -15.983154, y: 101.65991}
-  m_SizeDelta: {x: -1010.5547, y: -223.9}
+  m_AnchoredPosition: {x: -0.0020751953, y: -0.0010375977}
+  m_SizeDelta: {x: -433.33, y: -200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &446010692
 MonoBehaviour:
@@ -2077,7 +2079,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 0.05320751, g: 0.5999999, b: 0.42912728, a: 0.1764706}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2185,7 +2187,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1637087367}
+      - m_Target: {fileID: 388012641}
         m_TargetAssemblyTypeName: SceneEffect, Assembly-CSharp
         m_MethodName: LoadSceneWithFade
         m_Mode: 5
@@ -2318,7 +2320,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1637087367}
+      - m_Target: {fileID: 388012641}
         m_TargetAssemblyTypeName: SceneEffect, Assembly-CSharp
         m_MethodName: LoadSceneWithFade
         m_Mode: 5
@@ -2527,16 +2529,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 635632453}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2, y: 1.2, z: 1.1}
+  m_LocalScale: {x: 1.1999999, y: 1.1999999, z: 1.0999999}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 446010691}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 23.239485, y: -115.801025}
+  m_AnchoredPosition: {x: 9.921885, y: -31.083572}
   m_SizeDelta: {x: 2086.645, y: 925.4927}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &635632455
@@ -3330,7 +3332,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1637087367}
+      - m_Target: {fileID: 388012641}
         m_TargetAssemblyTypeName: SceneEffect, Assembly-CSharp
         m_MethodName: LoadSceneWithFade
         m_Mode: 5
@@ -3463,7 +3465,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1637087367}
+      - m_Target: {fileID: 388012641}
         m_TargetAssemblyTypeName: SceneEffect, Assembly-CSharp
         m_MethodName: LoadSceneWithFade
         m_Mode: 5
@@ -3596,7 +3598,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1637087367}
+      - m_Target: {fileID: 388012641}
         m_TargetAssemblyTypeName: SceneEffect, Assembly-CSharp
         m_MethodName: LoadSceneWithFade
         m_Mode: 5
@@ -4081,7 +4083,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1637087367}
+      - m_Target: {fileID: 388012641}
         m_TargetAssemblyTypeName: SceneEffect, Assembly-CSharp
         m_MethodName: LoadSceneWithFade
         m_Mode: 5
@@ -4750,7 +4752,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1637087367}
+      - m_Target: {fileID: 388012641}
         m_TargetAssemblyTypeName: SceneEffect, Assembly-CSharp
         m_MethodName: LoadSceneWithFade
         m_Mode: 5
@@ -4883,7 +4885,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1637087367}
+      - m_Target: {fileID: 388012641}
         m_TargetAssemblyTypeName: SceneEffect, Assembly-CSharp
         m_MethodName: LoadSceneWithFade
         m_Mode: 5
@@ -4963,26 +4965,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttons:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1582122107}
+  - {fileID: 208386777}
+  - {fileID: 305365187}
+  - {fileID: 1458708287}
+  - {fileID: 763759683}
+  - {fileID: 1586850747}
+  - {fileID: 247601899}
+  - {fileID: 330290180}
+  - {fileID: 1562591839}
+  - {fileID: 1847364530}
+  - {fileID: 1997867586}
+  - {fileID: 424442384}
+  - {fileID: 549436905}
+  - {fileID: 1361384468}
+  - {fileID: 1906286034}
+  - {fileID: 1072015953}
+  - {fileID: 815423306}
+  - {fileID: 2130537423}
+  - {fileID: 473889337}
+  - {fileID: 804672812}
 --- !u!4 &1492136516
 Transform:
   m_ObjectHideFlags: 0
@@ -5215,7 +5217,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1637087367}
+      - m_Target: {fileID: 388012641}
         m_TargetAssemblyTypeName: SceneEffect, Assembly-CSharp
         m_MethodName: LoadSceneWithFade
         m_Mode: 5
@@ -5348,7 +5350,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1637087367}
+      - m_Target: {fileID: 388012641}
         m_TargetAssemblyTypeName: SceneEffect, Assembly-CSharp
         m_MethodName: LoadSceneWithFade
         m_Mode: 5
@@ -5481,7 +5483,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1637087367}
+      - m_Target: {fileID: 388012641}
         m_TargetAssemblyTypeName: SceneEffect, Assembly-CSharp
         m_MethodName: LoadSceneWithFade
         m_Mode: 5
@@ -5665,124 +5667,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1622177678}
   m_CullTransparentMesh: 1
---- !u!1 &1637087361
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1637087365}
-  - component: {fileID: 1637087364}
-  - component: {fileID: 1637087363}
-  - component: {fileID: 1637087362}
-  - component: {fileID: 1637087367}
-  m_Layer: 5
-  m_Name: Canvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1637087362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1637087361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &1637087363
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1637087361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
---- !u!223 &1637087364
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1637087361}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &1637087365
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1637087361}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 347160943}
-  - {fileID: 139240361}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
---- !u!114 &1637087367
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1637087361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30cab66cd02f9314da6c629a7c7837af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fadeImage: {fileID: 139240359}
-  fadeDuration: 1
 --- !u!1 &1665084805
 GameObject:
   m_ObjectHideFlags: 0
@@ -6257,7 +6141,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1637087367}
+      - m_Target: {fileID: 388012641}
         m_TargetAssemblyTypeName: SceneEffect, Assembly-CSharp
         m_MethodName: LoadSceneWithFade
         m_Mode: 5
@@ -6390,7 +6274,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1637087367}
+      - m_Target: {fileID: 388012641}
         m_TargetAssemblyTypeName: SceneEffect, Assembly-CSharp
         m_MethodName: LoadSceneWithFade
         m_Mode: 5
@@ -6657,7 +6541,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1637087367}
+      - m_Target: {fileID: 388012641}
         m_TargetAssemblyTypeName: SceneEffect, Assembly-CSharp
         m_MethodName: LoadSceneWithFade
         m_Mode: 5
@@ -6790,7 +6674,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1637087367}
+      - m_Target: {fileID: 388012641}
         m_TargetAssemblyTypeName: SceneEffect, Assembly-CSharp
         m_MethodName: LoadSceneWithFade
         m_Mode: 5
@@ -6847,6 +6731,5 @@ SceneRoots:
   - {fileID: 1787112997}
   - {fileID: 856516613}
   - {fileID: 388012646}
-  - {fileID: 1637087365}
   - {fileID: 1787634141}
   - {fileID: 1492136516}
