@@ -264,8 +264,8 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: '{inproject}: password.keystore'
-  AndroidKeyaliasName: zexa
+  AndroidKeystoreName: '{dedicated}: Documents/password.keystore'
+  AndroidKeyaliasName: Debug
   AndroidEnableArmv9SecurityFeatures: 0
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
