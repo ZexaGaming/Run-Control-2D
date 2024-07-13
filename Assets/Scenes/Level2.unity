@@ -1983,6 +1983,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbcac8227be0f964b9e05383d14fc88a, type: 3}
+--- !u!114 &811393786 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1096529858415026949, guid: bbcac8227be0f964b9e05383d14fc88a, type: 3}
+  m_PrefabInstance: {fileID: 811393785}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd558f2fcef0dc4f9d1c963cb1515a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &889708618 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5737815173455380324, guid: 35c9b87a00f6b0f49bcb56b4bd5b4849, type: 3}
@@ -13882,7 +13893,7 @@ MonoBehaviour:
           m_StringArgument: Level3
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 811393786}
         m_TargetAssemblyTypeName: PassLevel, Assembly-CSharp
         m_MethodName: PassTheLevel
         m_Mode: 1
